@@ -7,7 +7,7 @@
     <authorUrl>http://www.kreemer.ch</authorUrl>
     <copyright>FC Wolfwil 2015</copyright>
     <license>GNU/GPL</license>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <description>Template</description>
     <files>
         <filename>index.php</filename>
