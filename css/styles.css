@@ -1,0 +1,100 @@
+body {
+    background-image: url('./../images/Rasen.jpg');
+    padding-bottom:70px;
+}
+
+h1,h2,h3,h4,h5,h6,body {
+    font-family: "Tahoma" !Important;
+}
+
+.navbar-header a img {
+    margin-right: 0;
+}
+
+.carouselck {
+    margin-top: 8em;
+}
+
+.carouselck_pag_ul {
+    margin-right: 10em !important;
+}
+
+.carouselck_images img {
+
+    box-shadow: 5px 5px 80px black !important;
+}
+
+a {
+    color: #C00912 !important;
+}
+
+/*.carousel-inner {
+    box-shadow: 5px 5px 80px black;
+}
+
+.carousel-indicators li, .carousel-indicators .active {
+    height: 20px !important;
+    width: 20px !important;
+}
+
+
+#container-slideshow {
+    padding-top: 10em;
+}
+*/
+#nav-main {
+    margin-bottom: 5em;
+}
+
+
+#container-main {
+    padding-top: 2em;
+}
+
+.container-red {
+    background-color: rgba(256,256,256,0.9);
+
+    border-radius: 5px;
+    border: 2px solid #aaa;
+}
+
+#container-left {
+}
+
+#container-right {
+}
+
+.col-md-offset-half {
+    margin-left: 4.16666665%;
+}
+
+.col-md-half {
+    width: 4.16666665%;
+    float: left;
+}
+
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+
+/* Add the following to your stylesheet */
+
+.dropdown-submenu{position:relative;}
+.dropdown-submenu>.dropdown-menu{top:0;left:100%;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+.dropdown-submenu:active>.dropdown-menu, .dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+.dropdown-submenu:active>a:after{border-left-color:#ffffff;}
+.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
