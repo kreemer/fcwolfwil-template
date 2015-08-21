@@ -1,45 +1,47 @@
 body {
     background-image: url('./../images/Rasen.jpg');
-    padding-bottom:70px;
+/*background-color: #eee;*/
+padding-bottom:70px;
 }
 
+
 h1,h2,h3,h4,h5,h6,body {
-    font-family: "Tahoma" !Important;
+font-family: "Tahoma" !Important;
 }
 
 .navbar-header a img {
-    margin-right: 0;
+margin-right: 0;
 }
 
 .carouselck {
-    margin-top: 8em;
+margin-top: 8em;
 }
 
 .carouselck_pag_ul {
-    margin-right: 10em !important;
+margin-right: 10em !important;
 }
 
 .carouselck_images img {
 
-    box-shadow: 5px 5px 80px black !important;
+box-shadow: 5px 5px 80px black !important;
 }
 
 a {
-    color: #C00912 !important;
+color: #C00912 !important;
 }
 
 /*.carousel-inner {
-    box-shadow: 5px 5px 80px black;
+box-shadow: 5px 5px 80px black;
 }
 
 .carousel-indicators li, .carousel-indicators .active {
-    height: 20px !important;
-    width: 20px !important;
+height: 20px !important;
+width: 20px !important;
 }
 
 
 #container-slideshow {
-    padding-top: 10em;
+padding-top: 10em;
 }
 */
 #nav-main {
@@ -65,15 +67,15 @@ a {
 }
 
 #container-right {
-    padding-top: 2em;
+    /*padding-top: 2em;*/
 }
 
 .col-md-offset-half {
-    margin-left: 4.16666665%;
+    margin-left: 2.08888887%;
 }
 
 .col-md-half {
-    width: 4.16666665%;
+    width: 2.08888887%;
     float: left;
 }
 
@@ -111,21 +113,123 @@ header.entry-header {
 }
 
 
-section.pagination ul li {
+.pagination ul li {
     display: inline-block;
     padding-right: 1em;
 
 }
-section.pagination ul {
+.pagination ul {
     display: inline;
 }
-section.pagination {
-    display: block;
+.pagination {
+    display: block !important;
     text-align: center;
     border: 1px solid #aaa;
     font-size: 0.9em;
+    padding: 1em;
 }
 
+#container-left > ul > li > ul > li {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+}
+
+#container-left > ul.nav {
+    font-size:1.2em !important;
+}
+
+#container-right > div {
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 1em;
+    margin-bottom: 0.5em;
+}
+
+div .carouselck_pag {
+    right: 0;
+    position: relative;
+}
+
+div .carouselck_pag_ul {
+    text-align: center !important;
+    margin-right: 0 !important;
+    position: absolute;
+    width: 100%;
+}
+
+div .blog-featured > .clearfix > div {
+    border-bottom: 1px solid #aaa;
+}
+
+div .carouselck_wrap {
+
+    margin-bottom: 2em;
+}
+
+ul .small {
+    font-size: 95%;
+}
+
+.carouselck_wrap .carouselck_pag .carouselck_pag_ul .carouselck_pag_nav {
+    background: none !important;
+}
+
+.carouselck_wrap .carouselck_pag .carouselck_pag_ul .carouselck_pag_nav > span {
+    padding: 2px;
+}
+
+div .carouselck_pag_nav > span  {
+    background-image: url("./../images/button-football.png");
+    background-size: 22px;
+    content: url('./../images/button-football.png');
+    width: 22px !important;
+    height: 22px !important;
+}
+
+div .carouselck_wrap .carouselck_pag .carouselck_pag_ul .carouselck_pag_nav.carouselckcurrent > span {
+    background-image: url("./../images/button-football-active.png");
+    background-size: 22px;
+    content: url('./../images/button-football-active.png') !important;
+    width: 22px !important;
+    height: 22px !important;
+}
+
+
+/* Editor bugfixes */
+div .chzn-container {
+    width: auto !important;
+}
+
+div.chzn-container ul li input {
+    width: auto !Important;
+}
+
+#container-main .page-header {
+    padding-bottom: 0;
+    margin-top: 0;
+}
+
+div .seperator {
+    border-bottom: 1px solid #aaa;
+}
+
+.btn-primary {
+
+    color: #fff !important;
+    background-color: #C00912 !important;
+    background-image: none;
+}
+.btn-primary:focus, .btn-primary:hover {
+    color: #fff !important;
+    background-color: #C00912 !important;
+}
+
+div #container-right hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #aaa;
+}
 
 /* Add the following to your stylesheet */
 
